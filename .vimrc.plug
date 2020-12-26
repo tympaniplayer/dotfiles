@@ -10,4 +10,5 @@ Plug 'OmniSharp/omnisharp-vim'
 Plug 'w0rp/ale'
 Plug 'vim-syntastic/syntastic'
 Plug 'rust-lang/rust.vim'
+Plug 'hashivim/vim-terraform'
 call plug#end()

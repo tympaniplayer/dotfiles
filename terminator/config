@@ -1,0 +1,27 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ebdbb2"
+  [[Red Alert]]
+    background_color = "#762423"
+    cursor_color = "#ffffff"
+    foreground_color = "#ffffff"
+    palette = "#000000:#d62e4e:#71be6b:#beb86b:#489bee:#e979d7:#6bbeb8:#d6d6d6:#262626:#e02553:#aff08c:#dfddb7:#65aaf1:#ddb7df:#b7dfdd:#ffffff"
+  [[Red Sands]]
+    background_color = "#7a251e"
+    cursor_color = "#ffffff"
+    foreground_color = "#d7c9a7"
+    palette = "#000000:#ff3f00:#00bb00:#e7b000:#0072ff:#bb00bb:#00bbbb:#bbbbbb:#555555:#bb0000:#00bb00:#e7b000:#0072ae:#ff55ff:#55ffff:#ffffff"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
